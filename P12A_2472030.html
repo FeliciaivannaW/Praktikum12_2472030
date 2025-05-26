@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop - 2472030</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .cbody {
+            background-color: #f5f2eb;
+            padding: 30px;
+        }
+        .title {
+            color: #3e2c23;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+        .card {
+            background-color: #fffaf3;
+            border: 1px solid #d8cfc4;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            width: 200px;
+            text-align: left;
+            padding: 15px;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            height: 250px;
+        }
+        .card h2 {
+            color: #3e2c23;
+            margin: 10px 0 5px;
+        }
+        .card p {
+            text-align: left;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="cbody">
+  <h1 class="title">Coffee Shop Menu</h1>
+  <div id="menu-container" class="menu"></div>
+  <p>&copy; 2472030 - Felicia Ivanna Widian</p>
+
+  <script src="coffee.js"></script>
+</body>
+</html>
