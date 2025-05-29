@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CRUD - 2472030</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="form-card">
+      <form id="formProduk">
+        <div class="form-row">
+          <input type="text" id="name" placeholder="Nama Produk">
+          <input type="number" id="price" placeholder="Harga (Rp)">
+          <input type="number" id="stock" placeholder="Stok">
+        </div>
+        <textarea id="description" placeholder="Deskripsi Produk"></textarea>
+        <div class="form-actions">
+          <button type="submit" id="btnSubmit" class="btn-green">Tambah Produk</button>
+        </div>
+      </form>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nama Produk</th>
+          <th>Harga (Rp)</th>
+          <th>Deskripsi</th>
+          <th>Stok</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="tabelProduk">
+        <tr><td colspan="6">Tidak ada produk</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
